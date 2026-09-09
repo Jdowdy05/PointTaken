@@ -1,4 +1,4 @@
-# JustTheTip
+# Point Taken — An Optical Tactile Fingertip
 
 A compact optical tactile fingertip built around the **ams OSRAM TMF8829**. A soft silicone surface deforms under contact; the sensor observes the changing distance to its reflective inner layer. Force and contact information must be obtained through calibration.
 
