@@ -1,0 +1,40 @@
+{
+  "views": [
+    {
+      "view": "hero",
+      "file": "images/sensor_assembled_hero.png",
+      "sha256": "c77a362cad4153be3a93c19af4080ec3ce65293df53eac2daf96175522ccb733"
+    },
+    {
+      "view": "front",
+      "file": "images/sensor_assembled_front.png",
+      "sha256": "0eda0b9b7dc8d6e64b5b287977467f9e0914bdcb6251b51b5968f85c7bb26330"
+    },
+    {
+      "view": "back",
+      "file": "images/sensor_assembled_back.png",
+      "sha256": "d9c6ef7aeed0799eb311c5b0cf84c416d6406c4b598b37f79dc18f8a55769808"
+    },
+    {
+      "view": "side",
+      "file": "images/sensor_assembled_side.png",
+      "sha256": "da06a41f55d9970858dfdfee46a5d502a741b0d0f520f1cec82fb5f778163f90"
+    },
+    {
+      "view": "tip",
+      "file": "images/sensor_assembled_tip.png",
+      "sha256": "ffae084418da4c2e855bbd05bb1911ac3aea1c8f0890e589fd6c87282ed47e98"
+    },
+    {
+      "view": "base",
+      "file": "images/sensor_assembled_base.png",
+      "sha256": "ddcb8268259f724fdfeefc8e0786cc49f13b060d5f435bf050601db12166090c"
+    },
+    {
+      "view": "exploded",
+      "file": "images/sensor_assembly_exploded.png",
+      "sha256": "93580a894e22daa87f6989613874b44067fb94a9d5febf9a1a10b466feff27c5"
+    }
+  ],
+  "method": "Orthographic renders of the exported sensor CAD; exploded translations are for assembly illustration."
+}

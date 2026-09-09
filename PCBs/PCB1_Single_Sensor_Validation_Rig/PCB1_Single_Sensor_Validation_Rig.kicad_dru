@@ -1,0 +1,29 @@
+(version 1)
+
+(rule "JLCPCB minimum track and clearance"
+  (constraint track_width (min 0.15mm))
+  (constraint clearance (min 0.15mm)))
+
+(rule "JLCPCB standard through vias"
+  (constraint hole_size (min 0.20mm))
+  (constraint annular_width (min 0.15mm)))
+
+(rule "Copper to routed board edge"
+  (constraint edge_clearance (min 0.30mm)))
+
+(rule "USB FS controlled geometry"
+  (condition "A.NetClass == 'USB2'")
+  (constraint track_width (min 0.18mm) (opt 0.20mm) (max 0.22mm))
+  (constraint clearance (min 0.15mm)))
+
+(rule "Five volt distribution"
+  (condition "A.NetClass == 'Power_5V'")
+  (constraint track_width (min 0.20mm)))
+
+(rule "Three volt distribution"
+  (condition "A.NetClass == 'Power_3V3'")
+  (constraint track_width (min 0.30mm)))
+
+(rule "One point eight volt distribution"
+  (condition "A.NetClass == 'Power_1V8'")
+  (constraint track_width (min 0.25mm)))

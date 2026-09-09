@@ -1,0 +1,1975 @@
+(kicad_sch (version 20250114) (generator "JustTheTip schematic generator")
+  (uuid "24f1e39b-1c6d-4438-b29b-9d7cdd11dcf1")
+  (paper "A3")
+  (lib_symbols
+    (symbol "Device:C"
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0.254)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "C"
+    			(at 0.635 2.54 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Value" "C"
+    			(at 0.635 -2.54 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0.9652 -3.81 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Unpolarized capacitor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "cap capacitor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "C_*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "C_0_1"
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "C_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+
+    (symbol "Device:L"
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 1.016)
+    			(hide yes)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "L"
+    			(at -1.27 0 90)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "L"
+    			(at 1.905 0 90)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Inductor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "inductor choke coil reactor magnetic"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "L_0_1"
+    			(arc
+    				(start 0 2.54)
+    				(mid 0.6323 1.905)
+    				(end 0 1.27)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(arc
+    				(start 0 1.27)
+    				(mid 0.6323 0.635)
+    				(end 0 0)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(arc
+    				(start 0 0)
+    				(mid 0.6323 -0.635)
+    				(end 0 -1.27)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(arc
+    				(start 0 -1.27)
+    				(mid 0.6323 -1.905)
+    				(end 0 -2.54)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "L_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 1.27)
+    				(name "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 1.27)
+    				(name "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+
+    (symbol "Device:R"
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "R"
+    			(at 2.032 0 90)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "R"
+    			(at 0 0 90)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at -1.778 0 90)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Resistor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "R res resistor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "R_*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "R_0_1"
+    			(rectangle
+    				(start -1.016 -2.54)
+    				(end 1.016 2.54)
+    				(stroke
+    					(width 0.254)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "R_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 1.27)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 1.27)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+
+    (symbol "JustTheTip_PCB1:TPS6282xDMQ"
+        (exclude_from_sim no)
+        (in_bom yes)
+        (on_board yes)
+        (property "Reference" "U"
+          (at 2.54 0 0)
+          (effects
+            (font (size 1.27 1.27))
+          )
+        )
+        (property "Value" "TPS6282xDMQ"
+          (at 0 -2.54 0)
+          (effects
+            (font (size 1.27 1.27))
+          )
+        )
+        (property "Footprint" "JustTheTip_PCB1:TI_DMQ0006A_VSON-HR-6_1.5x1.5mm"
+          (at 0 -5.08 0)
+          (effects
+            (font (size 1.27 1.27))
+          )
+          (hide yes)
+        )
+        (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62825.pdf"
+          (at 0 -7.62 0)
+          (effects
+            (font (size 1.27 1.27))
+          )
+          (hide yes)
+        )
+        (property "Description" "TI TPS62824/TPS62825/TPS62826/TPS62827 6-pin DMQ step-down buck regulator family"
+          (at 0 -10.16 0)
+          (effects
+            (font (size 1.27 1.27))
+          )
+          (hide yes)
+        )
+        (property "ki_keywords" "TPS62826DMQ TPS6282618DMQ buck 6-pin VSON-HR"
+          (at 0 0 0)
+          (effects
+            (font (size 1.27 1.27))
+          )
+          (hide yes)
+        )
+        (symbol "TPS6282xDMQ_0_1"
+          (rectangle
+            (start -6.35 -7.62)
+            (end 6.35 7.62)
+            (stroke (width 0.254) (type default))
+            (fill (type background))
+          )
+        )
+        (symbol "TPS6282xDMQ_1_1"
+          (pin input line
+            (at -8.89 2.54 0)
+            (length 2.54)
+            (name "EN"
+              (effects (font (size 1.27 1.27)))
+            )
+            (number "1"
+              (effects (font (size 1.27 1.27)))
+            )
+          )
+          (pin open_collector line
+            (at 8.89 -2.54 180)
+            (length 2.54)
+            (name "PG"
+              (effects (font (size 1.27 1.27)))
+            )
+            (number "2"
+              (effects (font (size 1.27 1.27)))
+            )
+          )
+          (pin input line
+            (at 8.89 2.54 180)
+            (length 2.54)
+            (name "FB"
+              (effects (font (size 1.27 1.27)))
+            )
+            (number "3"
+              (effects (font (size 1.27 1.27)))
+            )
+          )
+          (pin power_in line
+            (at 0 10.16 270)
+            (length 2.54)
+            (name "GND"
+              (effects (font (size 1.27 1.27)))
+            )
+            (number "4"
+              (effects (font (size 1.27 1.27)))
+            )
+          )
+          (pin power_out line
+            (at 8.89 5.08 180)
+            (length 2.54)
+            (name "SW"
+              (effects (font (size 1.27 1.27)))
+            )
+            (number "5"
+              (effects (font (size 1.27 1.27)))
+            )
+          )
+          (pin power_in line
+            (at -8.89 5.08 0)
+            (length 2.54)
+            (name "VIN"
+              (effects (font (size 1.27 1.27)))
+            )
+            (number "6"
+              (effects (font (size 1.27 1.27)))
+            )
+          )
+        )
+      )
+
+    (symbol "power:PWR_FLAG"
+    		(power global)
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0)
+    			(hide yes)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "#FLG"
+    			(at 0 1.905 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "PWR_FLAG"
+    			(at 0 3.81 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Special symbol for telling ERC where power comes from"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "flag power"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "PWR_FLAG_0_0"
+    			(pin power_out line
+    				(at 0 0 90)
+    				(length 0)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(symbol "PWR_FLAG_0_1"
+    			(polyline
+    				(pts
+    					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+  )
+
+  (text "Buck rails follow TI TPS6282x typical application and are fed from eFuse-protected VBUS_FUSED."
+    (at 12.00 15.00 0)
+    (effects (font (size 1.27 1.27) (bold yes)) (justify left bottom))
+    (uuid "f606a845-fee3-4820-ab4a-94732ddd9b5b")
+  )
+
+  (text "U10 adjustable divider is 450k/100k for 3.3 V from 0.6 V FB. U11 fixed 1.8 V ties FB to output."
+    (at 12.00 25.00 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "80b4125c-10fc-4df7-b6c0-7bb54bff64f6")
+  )
+
+  (symbol (lib_id "JustTheTip_PCB1:TPS6282xDMQ")
+    (at 49.53 44.45 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "939bd4ed-ae17-440b-9263-c132d3d67263")
+    (property "Reference" "U10"
+      (at 46.53 40.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TPS62826DMQ 3.3V"
+      (at 46.53 42.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JustTheTip_PCB1:TI_DMQ0006A_VSON-HR-6_1.5x1.5mm"
+      (at 49.53 44.45 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62825.pdf"
+      (at 49.53 44.45 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 49.53 44.45 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Family" "TPS6282xDMQ"
+      (at 49.53 44.45 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet_Source" "https://www.ti.com/lit/ds/symlink/tps62825.pdf"
+      (at 49.53 44.45 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "TPS62826DMQ"
+      (at 49.53 44.45 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "23941426-ab51-4100-b2b0-fd528a4ee87a"))
+    (pin "2" (uuid "8ece2f97-3ccd-4a61-8be8-3c9207778051"))
+    (pin "3" (uuid "5e654d2a-c817-45a4-bb17-ca978d1ed3c4"))
+    (pin "4" (uuid "aa7f3eed-6d2f-4bf4-8bea-2e089bbabbaf"))
+    (pin "5" (uuid "0edd1e50-872e-4aa2-b4c6-12e06f8e9063"))
+    (pin "6" (uuid "1ff10b9a-868d-4013-98ad-4aeb9be3d984"))
+    (instances (project "PCB1_Controller" (path "/" (reference "U10") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 40.64 41.91) (xy 39.37 41.91))
+    (stroke (width 0) (type default))
+    (uuid "c0b1e40e-48bd-4855-b5b2-8f5ca22ab5c7")
+  )
+
+  (global_label "VBUS_FUSED"
+    (at 39.37 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "dfb0aba7-39a7-48a9-9684-cd9d730aeac5")
+  )
+
+  (wire
+    (pts (xy 58.42 46.99) (xy 59.69 46.99))
+    (stroke (width 0) (type default))
+    (uuid "228f24c4-2da1-46e9-8c59-2667fc6fde12")
+  )
+
+  (global_label "PGOOD_3V3"
+    (at 59.69 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "c40b0e56-8328-428a-b76c-cf26515dbb83")
+  )
+
+  (wire
+    (pts (xy 58.42 41.91) (xy 59.69 41.91))
+    (stroke (width 0) (type default))
+    (uuid "f8ccaa3e-2f64-4237-96b9-09a273aa3331")
+  )
+
+  (global_label "FB_3V3"
+    (at 59.69 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "b8740bf1-8208-4c35-a605-46cce176ef3c")
+  )
+
+  (wire
+    (pts (xy 49.53 34.29) (xy 49.53 33.02))
+    (stroke (width 0) (type default))
+    (uuid "10c977bf-5681-4370-89dc-12071ac75a5d")
+  )
+
+  (global_label "GND"
+    (at 49.53 33.02 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "c19ba1ee-cfdb-42cb-b7f2-d3ab860ac13d")
+  )
+
+  (wire
+    (pts (xy 58.42 39.37) (xy 59.69 39.37))
+    (stroke (width 0) (type default))
+    (uuid "f140b320-c528-4463-aa2c-0c0c679d6911")
+  )
+
+  (global_label "SW_3V3"
+    (at 59.69 39.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "9ad06573-d4db-47a6-9719-70cfcf3a36d9")
+  )
+
+  (wire
+    (pts (xy 40.64 39.37) (xy 39.37 39.37))
+    (stroke (width 0) (type default))
+    (uuid "5b284928-fdcb-41cd-a7dc-6157c03ef41e")
+  )
+
+  (global_label "VBUS_FUSED"
+    (at 39.37 39.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "da40337b-e665-45b5-8e24-a8ce14af5cfe")
+  )
+
+  (symbol (lib_id "Device:L")
+    (at 76.20 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4bd0b087-adb6-44c0-8e34-3e75b2f97f91")
+    (property "Reference" "L10"
+      (at 73.20 35.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0.47uH"
+      (at 73.20 37.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JustTheTip_PCB1:TDK_TFM201610ALM-R47MTAA_2.0x1.6mm"
+      (at 76.20 39.37 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 76.20 39.37 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "TDK"
+      (at 76.20 39.37 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "TFM201610ALM-R47MTAA"
+      (at 76.20 39.37 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "5a537c50-e6fb-4494-9c0a-01789d148f65"))
+    (pin "2" (uuid "f833e033-1aca-4585-8c61-68bfc58aca8d"))
+    (instances (project "PCB1_Controller" (path "/" (reference "L10") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 76.20 35.56) (xy 76.20 34.29))
+    (stroke (width 0) (type default))
+    (uuid "689e5368-69d5-4742-8473-7de6faa8dae1")
+  )
+
+  (global_label "SW_3V3"
+    (at 76.20 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "0e2c7118-2732-481b-baf0-5d8be8c601d6")
+  )
+
+  (wire
+    (pts (xy 76.20 43.18) (xy 76.20 44.45))
+    (stroke (width 0) (type default))
+    (uuid "358e423f-b8d4-4005-b100-fd8e1e6cbe26")
+  )
+
+  (global_label "P3V3"
+    (at 76.20 44.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "5b6cdfe2-405e-4a2f-ab2e-9f88260b84e7")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 30.48 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "cc6dd838-cefc-40fa-b1d0-ff205ccafea9")
+    (property "Reference" "C10"
+      (at 27.48 58.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7uF"
+      (at 27.48 60.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+      (at 30.48 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 30.48 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Taiyo Yuden"
+      (at 30.48 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "JMK107BB7475MA"
+      (at 30.48 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "1bbbba9c-8c46-42dc-84d0-2b0cea30bd66"))
+    (pin "2" (uuid "41356513-9407-4724-926f-dc9492fa5474"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C10") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 30.48 58.42) (xy 30.48 57.15))
+    (stroke (width 0) (type default))
+    (uuid "7b2a2e4c-30d2-49ce-a82f-c6588d8f2110")
+  )
+
+  (global_label "VBUS_FUSED"
+    (at 30.48 57.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "109cda5e-eca0-4a30-9d4e-6df205e50cbd")
+  )
+
+  (wire
+    (pts (xy 30.48 66.04) (xy 30.48 67.31))
+    (stroke (width 0) (type default))
+    (uuid "9bb61bc1-72ed-4af5-b088-5134cb48c5bf")
+  )
+
+  (global_label "GND"
+    (at 30.48 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "a8e6b220-e3a8-41cc-9dd3-8f71d0c24526")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 91.44 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "fb99fa84-db0d-4f02-96fb-5b1af4f845a4")
+    (property "Reference" "C11"
+      (at 88.44 58.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10uF"
+      (at 88.44 60.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+      (at 91.44 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 91.44 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Murata"
+      (at 91.44 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "GRM188Z71A106MA73D"
+      (at 91.44 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "074040f6-362d-4846-8b2e-5556618909e5"))
+    (pin "2" (uuid "c572c32a-9199-4b85-a521-5dcc167aa855"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C11") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 91.44 58.42) (xy 91.44 57.15))
+    (stroke (width 0) (type default))
+    (uuid "6c91dcf1-f71d-4794-904d-e15b25acdec3")
+  )
+
+  (global_label "P3V3"
+    (at 91.44 57.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "4dacfda1-8b58-4e4f-993c-7ed4472b0c17")
+  )
+
+  (wire
+    (pts (xy 91.44 66.04) (xy 91.44 67.31))
+    (stroke (width 0) (type default))
+    (uuid "e95295a7-0cc5-4d87-ba64-bdc4dc866aa0")
+  )
+
+  (global_label "GND"
+    (at 91.44 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "a831384f-9398-4709-bb92-27453d4d675b")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 101.60 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "e1957626-7d91-4cdd-b278-f5471c48d827")
+    (property "Reference" "C12"
+      (at 98.60 58.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10uF"
+      (at 98.60 60.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+      (at 101.60 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 101.60 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Murata"
+      (at 101.60 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "GRM188Z71A106MA73D"
+      (at 101.60 62.23 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "ab625ea9-f2e7-4bcc-83ed-8d5f270f0862"))
+    (pin "2" (uuid "73862f11-bfc2-4f83-9fa8-f718a8f5bf65"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C12") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 101.60 58.42) (xy 101.60 57.15))
+    (stroke (width 0) (type default))
+    (uuid "2e5e2814-aa35-4715-b2ae-91be6d46f46f")
+  )
+
+  (global_label "P3V3"
+    (at 101.60 57.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "82c5c018-f6b1-4796-8a51-ec6c9b6506e5")
+  )
+
+  (wire
+    (pts (xy 101.60 66.04) (xy 101.60 67.31))
+    (stroke (width 0) (type default))
+    (uuid "80e73cd4-cd3b-4bae-836b-328aa7a5936e")
+  )
+
+  (global_label "GND"
+    (at 101.60 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "fbd5352e-f35b-47e1-8a9a-85967fa86591")
+  )
+
+  (symbol (lib_id "Device:R")
+    (at 83.82 72.39 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "fecdcf5b-ec72-42f5-b1e5-72973a2bb306")
+    (property "Reference" "R10"
+      (at 80.82 68.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "450k"
+      (at 80.82 70.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+      (at 83.82 72.39 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 83.82 72.39 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Yageo"
+      (at 83.82 72.39 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "RC0402FR-07450KL"
+      (at 83.82 72.39 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "cc5940c8-0d39-429b-be05-66993fdd425b"))
+    (pin "2" (uuid "70c2fc13-a069-4b1a-a4df-a1418b1044bf"))
+    (instances (project "PCB1_Controller" (path "/" (reference "R10") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 83.82 68.58) (xy 83.82 67.31))
+    (stroke (width 0) (type default))
+    (uuid "3547249e-a6ab-4699-b7ed-b60742b30184")
+  )
+
+  (global_label "P3V3"
+    (at 83.82 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "ac161d70-d03d-4701-8bff-48b40bb2e00a")
+  )
+
+  (wire
+    (pts (xy 83.82 76.20) (xy 83.82 77.47))
+    (stroke (width 0) (type default))
+    (uuid "2fa3e776-f611-43af-a24b-5854390cc304")
+  )
+
+  (global_label "FB_3V3"
+    (at 83.82 77.47 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "55ee0922-c132-401c-9407-b418425ed31b")
+  )
+
+  (symbol (lib_id "Device:R")
+    (at 83.82 85.09 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "bc7f1ac9-ef69-4890-a7c2-d14e13c67e98")
+    (property "Reference" "R11"
+      (at 80.82 81.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k"
+      (at 80.82 83.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+      (at 83.82 85.09 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 83.82 85.09 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Yageo"
+      (at 83.82 85.09 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "RC0402FR-07100KL"
+      (at 83.82 85.09 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "d51ecfed-bc68-46b1-8401-f94137f65804"))
+    (pin "2" (uuid "1f64117b-b5d5-4297-bd8b-82887d9e3183"))
+    (instances (project "PCB1_Controller" (path "/" (reference "R11") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 83.82 81.28) (xy 83.82 80.01))
+    (stroke (width 0) (type default))
+    (uuid "d80e128a-cc73-4293-8db1-c7a03a8286fb")
+  )
+
+  (global_label "FB_3V3"
+    (at 83.82 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "e26c8b6a-7c1c-45b0-b856-27c7940b54e2")
+  )
+
+  (wire
+    (pts (xy 83.82 88.90) (xy 83.82 90.17))
+    (stroke (width 0) (type default))
+    (uuid "aec5093c-9d37-47df-8fef-57dea286ab5e")
+  )
+
+  (global_label "GND"
+    (at 83.82 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "3129cef3-9d56-4efb-8ddf-50366b145d32")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 96.52 76.20 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "1246a3db-7292-4065-8274-109c29ddec5d")
+    (property "Reference" "C13"
+      (at 93.52 72.20 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "120pF"
+      (at 93.52 74.20 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+      (at 96.52 76.20 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 96.52 76.20 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Murata"
+      (at 96.52 76.20 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "GRM1555C1H121JA01D"
+      (at 96.52 76.20 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "3818c6a7-5d5e-4496-9d7c-597c068ce230"))
+    (pin "2" (uuid "911beeb0-fc6d-42b8-ade5-ebb9a7685807"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C13") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 96.52 72.39) (xy 96.52 71.12))
+    (stroke (width 0) (type default))
+    (uuid "318782e4-35a8-4667-ba2f-d79effbf5908")
+  )
+
+  (global_label "P3V3"
+    (at 96.52 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "4fab73ae-19f1-4310-8a5e-9be6c36d8238")
+  )
+
+  (wire
+    (pts (xy 96.52 80.01) (xy 96.52 81.28))
+    (stroke (width 0) (type default))
+    (uuid "d8c1cfff-7832-43a9-9116-c8eb3385b2f7")
+  )
+
+  (global_label "FB_3V3"
+    (at 96.52 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "ca7a121f-6279-4ccd-9d64-7302053dac3e")
+  )
+
+  (symbol (lib_id "Device:R")
+    (at 63.50 67.31 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "82aca40e-0ef7-456d-ab08-c5773b090ca1")
+    (property "Reference" "R12"
+      (at 60.50 63.31 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k"
+      (at 60.50 65.31 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+      (at 63.50 67.31 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 63.50 67.31 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Yageo"
+      (at 63.50 67.31 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "RC0402FR-07100KL"
+      (at 63.50 67.31 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "ce66e67d-929c-4f1f-93c3-7bb05450c5f4"))
+    (pin "2" (uuid "189a76f6-f37b-4e43-9e9f-b6241491abe5"))
+    (instances (project "PCB1_Controller" (path "/" (reference "R12") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 63.50 63.50) (xy 63.50 62.23))
+    (stroke (width 0) (type default))
+    (uuid "49059924-a824-40d0-879b-371ca22ae91f")
+  )
+
+  (global_label "P3V3"
+    (at 63.50 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "acebbd39-571e-4adb-a7df-6f7f4f382709")
+  )
+
+  (wire
+    (pts (xy 63.50 71.12) (xy 63.50 72.39))
+    (stroke (width 0) (type default))
+    (uuid "c082715b-c37b-4521-b717-0337d7e40475")
+  )
+
+  (global_label "PGOOD_3V3"
+    (at 63.50 72.39 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "bd36604f-8e25-48d5-9e7c-f3ef69b1fded")
+  )
+
+  (symbol (lib_id "JustTheTip_PCB1:TPS6282xDMQ")
+    (at 49.53 115.57 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f8ad0843-1126-439e-8f80-6e1b7694d385")
+    (property "Reference" "U11"
+      (at 46.53 111.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TPS6282618DMQ 1.8V"
+      (at 46.53 113.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JustTheTip_PCB1:TI_DMQ0006A_VSON-HR-6_1.5x1.5mm"
+      (at 49.53 115.57 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62825.pdf"
+      (at 49.53 115.57 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 49.53 115.57 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Family" "TPS6282xDMQ"
+      (at 49.53 115.57 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet_Source" "https://www.ti.com/lit/ds/symlink/tps62825.pdf"
+      (at 49.53 115.57 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "TPS6282618DMQ"
+      (at 49.53 115.57 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "9b789650-a0f0-48f8-9c57-d17b184409c2"))
+    (pin "2" (uuid "0ec07cf5-2c8d-4a09-9e5a-1d88e63364cf"))
+    (pin "3" (uuid "dfa9e6f3-71ff-4958-b386-1c3c367ef127"))
+    (pin "4" (uuid "cd674a2a-d338-4e4b-9545-5425b75b4384"))
+    (pin "5" (uuid "0498e775-83b9-4906-9b62-8af52dd85bf4"))
+    (pin "6" (uuid "f0659af0-15fd-424d-8faf-2049b64dd445"))
+    (instances (project "PCB1_Controller" (path "/" (reference "U11") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 40.64 113.03) (xy 39.37 113.03))
+    (stroke (width 0) (type default))
+    (uuid "0523e9c5-2f76-40c1-b404-5432531bd2a0")
+  )
+
+  (global_label "VBUS_FUSED"
+    (at 39.37 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "e802ac2e-a8a0-4695-8384-6d6a48da6ea4")
+  )
+
+  (wire
+    (pts (xy 58.42 118.11) (xy 59.69 118.11))
+    (stroke (width 0) (type default))
+    (uuid "4256f1a8-967b-40bd-b006-abaf342adaf5")
+  )
+
+  (global_label "PGOOD_1V8"
+    (at 59.69 118.11 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "5b295651-de14-4fc4-a0ff-18b70b80acd8")
+  )
+
+  (wire
+    (pts (xy 58.42 113.03) (xy 59.69 113.03))
+    (stroke (width 0) (type default))
+    (uuid "a6864e56-535c-4334-abd3-a2d77b2b5406")
+  )
+
+  (global_label "P1V8_TOF"
+    (at 59.69 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "b5659c8e-b99d-47ef-b9ca-49688449bf8c")
+  )
+
+  (wire
+    (pts (xy 49.53 105.41) (xy 49.53 104.14))
+    (stroke (width 0) (type default))
+    (uuid "fa67d6c3-e4ef-4146-9303-f82c0ae09fb6")
+  )
+
+  (global_label "GND"
+    (at 49.53 104.14 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "079ceea6-cb00-486b-a1d0-180d1d56c4c9")
+  )
+
+  (wire
+    (pts (xy 58.42 110.49) (xy 59.69 110.49))
+    (stroke (width 0) (type default))
+    (uuid "0b2ddc4d-d2c1-499d-9827-51ad1c233c6c")
+  )
+
+  (global_label "SW_1V8"
+    (at 59.69 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "408710c9-2a89-4762-9cc5-c9acb1ec3cff")
+  )
+
+  (wire
+    (pts (xy 40.64 110.49) (xy 39.37 110.49))
+    (stroke (width 0) (type default))
+    (uuid "641dd35f-c03b-43f8-a2b9-58ca30450563")
+  )
+
+  (global_label "VBUS_FUSED"
+    (at 39.37 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "10116ae6-9c67-4fe0-9eb5-360a29ac68cc")
+  )
+
+  (symbol (lib_id "Device:L")
+    (at 76.20 109.22 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c2a88696-d06a-40ea-a534-91a61a9d4736")
+    (property "Reference" "L11"
+      (at 73.20 105.22 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0.47uH"
+      (at 73.20 107.22 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JustTheTip_PCB1:TDK_TFM201610ALM-R47MTAA_2.0x1.6mm"
+      (at 76.20 109.22 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 76.20 109.22 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "TDK"
+      (at 76.20 109.22 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "TFM201610ALM-R47MTAA"
+      (at 76.20 109.22 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "fba3fde4-815e-45bd-88cb-e61aafaa7209"))
+    (pin "2" (uuid "c106d853-da81-4c2e-bfe0-91569da708b4"))
+    (instances (project "PCB1_Controller" (path "/" (reference "L11") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 76.20 105.41) (xy 76.20 104.14))
+    (stroke (width 0) (type default))
+    (uuid "dba0419e-1c8e-4e1c-ac65-decc75bf9fe4")
+  )
+
+  (global_label "SW_1V8"
+    (at 76.20 104.14 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "530f8ff7-9eeb-48ba-bdd5-83f11f888a08")
+  )
+
+  (wire
+    (pts (xy 76.20 113.03) (xy 76.20 114.30))
+    (stroke (width 0) (type default))
+    (uuid "b84f0309-16b5-43a8-882c-86b27ed0498a")
+  )
+
+  (global_label "P1V8_TOF"
+    (at 76.20 114.30 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "0dccbb1e-0c12-4142-836f-75ea8f00a2ab")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 30.48 132.08 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "9e5496a6-5c50-49c2-bebc-7b2e3c7cbc74")
+    (property "Reference" "C20"
+      (at 27.48 128.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7uF"
+      (at 27.48 130.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+      (at 30.48 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 30.48 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Taiyo Yuden"
+      (at 30.48 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "JMK107BB7475MA"
+      (at 30.48 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "0e2b22e6-901f-4512-b678-113d45a27c5b"))
+    (pin "2" (uuid "0c2bd25c-28fb-42c6-a395-2da7d73cbad3"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C20") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 30.48 128.27) (xy 30.48 127.00))
+    (stroke (width 0) (type default))
+    (uuid "412eecd6-5b9b-4a7c-a64f-54c02b084386")
+  )
+
+  (global_label "VBUS_FUSED"
+    (at 30.48 127.00 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "8c744ace-9b12-45c1-a8db-f14571b9cfe4")
+  )
+
+  (wire
+    (pts (xy 30.48 135.89) (xy 30.48 137.16))
+    (stroke (width 0) (type default))
+    (uuid "54f0fa28-d107-431e-a8d9-a87a7d5b9d70")
+  )
+
+  (global_label "GND"
+    (at 30.48 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "3b50a0fa-eeb9-4640-957d-b5188c8dadca")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 91.44 132.08 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "db7abc20-c95f-4779-9f0d-58b86aec94f8")
+    (property "Reference" "C21"
+      (at 88.44 128.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10uF"
+      (at 88.44 130.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+      (at 91.44 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 91.44 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Murata"
+      (at 91.44 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "GRM188Z71A106MA73D"
+      (at 91.44 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "2fef5897-3973-457d-9281-66686c19cc10"))
+    (pin "2" (uuid "6d2240b3-8cb5-4ec2-b204-bae44e32df5c"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C21") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 91.44 128.27) (xy 91.44 127.00))
+    (stroke (width 0) (type default))
+    (uuid "743a1e3a-d385-43c6-930c-587330f1c5a3")
+  )
+
+  (global_label "P1V8_TOF"
+    (at 91.44 127.00 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "4a6f8944-7e9e-4f45-be3d-21c67bb55c80")
+  )
+
+  (wire
+    (pts (xy 91.44 135.89) (xy 91.44 137.16))
+    (stroke (width 0) (type default))
+    (uuid "e6b56c94-755f-4436-a7d0-b9f7ab3e1006")
+  )
+
+  (global_label "GND"
+    (at 91.44 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "ca7777cc-ee65-4a60-b16b-63cfc4b74f16")
+  )
+
+  (symbol (lib_id "Device:C")
+    (at 101.60 132.08 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b1d5ea7b-4b4e-4c7a-84b3-e563d0b73a6b")
+    (property "Reference" "C22"
+      (at 98.60 128.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10uF"
+      (at 98.60 130.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+      (at 101.60 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 101.60 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Murata"
+      (at 101.60 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "GRM188Z71A106MA73D"
+      (at 101.60 132.08 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "095c98fd-f096-425b-8cd9-ce8ec82b0b22"))
+    (pin "2" (uuid "2c886e36-51e5-41d4-8473-05191242372a"))
+    (instances (project "PCB1_Controller" (path "/" (reference "C22") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 101.60 128.27) (xy 101.60 127.00))
+    (stroke (width 0) (type default))
+    (uuid "2c790ba4-42fc-4a85-8813-1f6546cdccc0")
+  )
+
+  (global_label "P1V8_TOF"
+    (at 101.60 127.00 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "f8b1c907-0e88-4b67-be03-d95f34c7fefd")
+  )
+
+  (wire
+    (pts (xy 101.60 135.89) (xy 101.60 137.16))
+    (stroke (width 0) (type default))
+    (uuid "6d159ae7-2908-4efa-a21c-91aa1a2def47")
+  )
+
+  (global_label "GND"
+    (at 101.60 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "d0fee514-bf1d-4667-ab3e-77eb9528d5b0")
+  )
+
+  (symbol (lib_id "Device:R")
+    (at 63.50 137.16 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "240498ab-0753-4c75-bc22-fb106c6cd607")
+    (property "Reference" "R20"
+      (at 60.50 133.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k"
+      (at 60.50 135.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+      (at 63.50 137.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 63.50 137.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Manufacturer" "Yageo"
+      (at 63.50 137.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "RC0402FR-07100KL"
+      (at 63.50 137.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "1664e798-d01d-48a1-a01a-89b2636784f4"))
+    (pin "2" (uuid "fdc81bd7-5709-47a3-9bd9-438d753d0320"))
+    (instances (project "PCB1_Controller" (path "/" (reference "R20") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 63.50 133.35) (xy 63.50 132.08))
+    (stroke (width 0) (type default))
+    (uuid "c84dc932-8207-41d4-8ecc-01f611f2e293")
+  )
+
+  (global_label "P3V3"
+    (at 63.50 132.08 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "20c3e6f4-b8f3-4104-942b-b1708c603dfd")
+  )
+
+  (wire
+    (pts (xy 63.50 140.97) (xy 63.50 142.24))
+    (stroke (width 0) (type default))
+    (uuid "0aedcb56-39da-4bcc-aeef-f068d672fb6d")
+  )
+
+  (global_label "PGOOD_1V8"
+    (at 63.50 142.24 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "000130c4-56ab-4712-ac9e-0a64d5f6dd09")
+  )
+
+  (symbol (lib_id "power:PWR_FLAG")
+    (at 118.11 39.37 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "ebc4117b-11f1-4398-b462-adde1de86bb9")
+    (property "Reference" "#FLG10"
+      (at 115.11 35.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PWR_FLAG"
+      (at 115.11 37.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" ""
+      (at 118.11 39.37 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 118.11 39.37 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "84a4f1e1-2d89-4513-8624-18394f9ccb99"))
+    (instances (project "PCB1_Controller" (path "/" (reference "#FLG10") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 118.11 39.37) (xy 118.11 40.64))
+    (stroke (width 0) (type default))
+    (uuid "7bcd783b-2765-4dfd-b0ef-57132ad90f4a")
+  )
+
+  (global_label "VBUS_SYS"
+    (at 118.11 40.64 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "cca7bca2-87ea-4ebe-b1ee-ed36fe808068")
+  )
+
+  (symbol (lib_id "power:PWR_FLAG")
+    (at 118.11 52.07 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "cc7e48de-7bc8-4bf8-88a0-5421faa72bc3")
+    (property "Reference" "#FLG11"
+      (at 115.11 48.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PWR_FLAG"
+      (at 115.11 50.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" ""
+      (at 118.11 52.07 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 118.11 52.07 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "925c5799-6a3b-44f2-995b-24328b0b8ac1"))
+    (instances (project "PCB1_Controller" (path "/" (reference "#FLG11") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 118.11 52.07) (xy 118.11 53.34))
+    (stroke (width 0) (type default))
+    (uuid "dfa0c718-c9cf-4e82-8640-871c6def5bd5")
+  )
+
+  (global_label "P3V3"
+    (at 118.11 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "8449c5d7-33bc-4b9a-86b2-5f308d3fcfb0")
+  )
+
+  (symbol (lib_id "power:PWR_FLAG")
+    (at 118.11 121.92 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "5969d286-f370-444f-b6d5-f1146c861dd5")
+    (property "Reference" "#FLG12"
+      (at 115.11 117.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PWR_FLAG"
+      (at 115.11 119.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" ""
+      (at 118.11 121.92 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 118.11 121.92 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "2d387d7f-84ab-44be-9845-3923ff5856cc"))
+    (instances (project "PCB1_Controller" (path "/" (reference "#FLG12") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 118.11 121.92) (xy 118.11 123.19))
+    (stroke (width 0) (type default))
+    (uuid "0e583d9e-c918-4874-a913-0c9319285dbc")
+  )
+
+  (global_label "P1V8_TOF"
+    (at 118.11 123.19 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "4671f695-71cc-4599-952e-f89fd5829991")
+  )
+
+  (symbol (lib_id "power:PWR_FLAG")
+    (at 118.11 134.62 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "ea45eb65-3195-4260-b14b-197fd635eccd")
+    (property "Reference" "#FLG13"
+      (at 115.11 130.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PWR_FLAG"
+      (at 115.11 132.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" ""
+      (at 118.11 134.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "~"
+      (at 118.11 134.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid "ccea0aed-b778-4034-9923-1404b7b8f85f"))
+    (instances (project "PCB1_Controller" (path "/" (reference "#FLG13") (unit 1))))
+  )
+
+  (wire
+    (pts (xy 118.11 134.62) (xy 118.11 135.89))
+    (stroke (width 0) (type default))
+    (uuid "43efdb54-1035-423c-9764-a048f4e8bcaf")
+  )
+
+  (global_label "GND"
+    (at 118.11 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "e227a81d-e5f7-4810-a6a8-4a56ef4fdf0e")
+  )
+
+  (sheet_instances (path "/" (page "1")))
+)

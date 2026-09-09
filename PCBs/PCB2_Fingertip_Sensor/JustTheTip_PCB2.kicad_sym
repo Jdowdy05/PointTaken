@@ -1,0 +1,58 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "JustTheTip PCB2 generator")
+  (symbol "TMF8829"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -10.16 20.32 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "TMF8829-1AM"
+      (at -10.16 -20.32 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "JustTheTip_PCB2:ams_OSRAM_TMF8829_OLGA-18_5.7x2.9mm"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "../../../docs/references/TMF8829-Time-of-flight-sensor.pdf"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "ams OSRAM 48x32 multi-zone direct time-of-flight sensor, OLGA18 optical module"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TMF8829_0_1"
+      (rectangle
+        (start -7.62 19.05)
+        (end 7.62 -19.05)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+    (symbol "TMF8829_1_1"
+      (pin power_in line (at -10.16 15.24 0) (length 2.54) (name "VDDC" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0 -21.59 90) (length 2.54) (name "GNDC" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at -10.16 2.54 0) (length 2.54) (name "EN" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin open_collector line (at 10.16 2.54 180) (length 2.54) (name "INT/GPIO6" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at -10.16 0 0) (length 2.54) (name "MOSI/GPIO0" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at -10.16 -2.54 0) (length 2.54) (name "CSN/GPIO1" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -21.59 90) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 12.70 0) (length 2.54) (name "VDD" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 17.78 0) (length 2.54) (name "VIO" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at -10.16 -7.62 0) (length 2.54) (name "SCL" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 10.16 -7.62 180) (length 2.54) (name "SDA" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at -10.16 5.08 0) (length 2.54) (name "SCLK/GPIO2" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 10.16 0 180) (length 2.54) (name "MISO/GPIO3" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 10.16 0) (length 2.54) (name "VDDD" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -21.59 90) (length 2.54) (name "GNDV" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 7.62 0) (length 2.54) (name "VDDV" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -21.59 90) (length 2.54) (name "GND_PAD" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -21.59 90) (length 2.54) (name "GND_PAD" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+    (embedded_fonts no)
+  )
+)

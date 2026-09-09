@@ -1,0 +1,70 @@
+{
+  "kicad_version": "10.0.3",
+  "boards": [
+    {
+      "board": "PCB1_Controller",
+      "copper_layers": 6,
+      "footprints": 153,
+      "segments": 0,
+      "vias": 0,
+      "board_sha256": "f60f09db4c97b254dd3b7e16b9a01c88b3fb3d0ac8ba6e61942662e863042cc5",
+      "native_load_passed": true,
+      "schematic_pages": 5,
+      "edge_graphics_bbox_mm": [
+        50.1,
+        50.1
+      ],
+      "bbox_note": "Includes Edge.Cuts stroke width; nominal outline sizes are listed in README."
+    },
+    {
+      "board": "PCB1_Single_Sensor_Validation_Rig",
+      "copper_layers": 6,
+      "footprints": 99,
+      "segments": 760,
+      "vias": 152,
+      "board_sha256": "334f061e681cac72c115ff3cb4f49e9f532fb7fa21d8abc35cafd626503763ca",
+      "native_load_passed": true,
+      "schematic_pages": 1,
+      "edge_graphics_bbox_mm": [
+        50.05,
+        40.05
+      ],
+      "bbox_note": "Includes Edge.Cuts stroke width; nominal outline sizes are listed in README."
+    },
+    {
+      "board": "PCB2_Fingertip_Sensor",
+      "copper_layers": 4,
+      "footprints": 12,
+      "segments": 159,
+      "vias": 24,
+      "board_sha256": "325bfe9f8f874fd9fc9cb4c63c62cbb822f2c07749035d004c359ad2a4b5cc9c",
+      "native_load_passed": true,
+      "schematic_pages": 1,
+      "connector_pin_nets": {
+        "1": "GND",
+        "2": "P3V3",
+        "3": "TOF_VIO",
+        "4": "GND",
+        "5": "P1V8_TOF",
+        "6": "GND",
+        "7": "SPI_SCLK",
+        "8": "SPI_MOSI",
+        "9": "SPI_MISO",
+        "10": "SPI_CS_N",
+        "11": "I3C_SCL_AUX",
+        "12": "I3C_SDA_AUX",
+        "13": "TOF_EN",
+        "14": "TOF_INT",
+        "15": "DET_ID",
+        "16": "GND"
+      },
+      "edge_graphics_bbox_mm": [
+        10.05,
+        15.05
+      ],
+      "bbox_note": "Includes Edge.Cuts stroke width; nominal outline sizes are listed in README."
+    }
+  ],
+  "scope": "Native load and preview exports only; publication did not reroute or claim electrical requalification.",
+  "publication_model_path_corrections": "Four nonexistent PCB1 stock-model paths now reference the existing exact-part envelope proxies; electrical geometry is unchanged."
+}

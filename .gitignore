@@ -1,38 +1,15 @@
+# Local build, editor and KiCad session files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Editor and local workspace state
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# Obsidian local state. Keep vault settings, ignore per-machine workspace files.
-docs/obsidian-vault/.obsidian/workspace.json
-docs/obsidian-vault/.obsidian/workspace-mobile.json
-docs/obsidian-vault/.trash/
-
-# Local environment and dependency folders
-.env
-.env.*
-!.env.example
-node_modules/
+**/.DS_Store
 __pycache__/
-*.py[cod]
-.pytest_cache/
-
-# Generated build/cache output
-build/
-dist/
-out/
+*.pyc
+.venv*/
 .cache/
-
-# KiCad local/generated files. Keep schematics, boards, symbols, footprints, and docs.
-*.kicad_prl
-*.kicad_sch-bak
-*.kicad_pcb-bak
-*-backups/
+*.log
+*.bak
 *.lck
-*.tmp
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+~$*

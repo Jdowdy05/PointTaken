@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Resistor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr "KiCad stock SMD resistor footprints"))
+  (lib (name "Capacitor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr "KiCad stock SMD capacitor footprints"))
+  (lib (name "Connector_JustTheTip")(type "KiCad")(uri "${KIPRJMOD}/../JustTheTip_Connectors.pretty")(options "")(descr "Shared project-local verified connector footprints"))
+  (lib (name "JustTheTip_PCB2")(type "KiCad")(uri "${KIPRJMOD}/JustTheTip_PCB2.pretty")(options "")(descr "Project-local PCB2 footprints"))
+)

@@ -1,0 +1,1401 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "JustTheTip exact validation symbols")
+  (generator_version "1.0")
+  (symbol "ESDA25P35-1U1M"
+  		(pin_numbers
+  			(hide yes)
+  		)
+  		(pin_names
+  			(offset 1.016)
+  			(hide yes)
+  		)
+  		(exclude_from_sim no)
+  		(in_bom yes)
+  		(on_board yes)
+  		(in_pos_files yes)
+  		(duplicate_pin_numbers_are_jumpers no)
+  		(property "Reference" "D"
+  			(at 0 2.54 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Value" "ESDA25P35-1U1M"
+  			(at 0 -2.54 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Footprint" "Diode_SMD:ST_QFN-2L_1.6x1.0mm"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda25p35-1u1m.pdf"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Description" "ST unidirectional 22 V TVS, QFN-2L 1.6 x 1.0 mm"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Sim.Device" "D"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Sim.Pins" "1=K 2=A"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_keywords" "diode"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_fp_filters" "ST_QFN-2L_1.6x1.0mm"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(symbol "ESDA25P35-1U1M_0_1"
+  			(polyline
+  				(pts
+  					(xy -1.27 1.27) (xy -1.27 -1.27)
+  				)
+  				(stroke
+  					(width 0.254)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+  				)
+  				(stroke
+  					(width 0.254)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 1.27 0) (xy -1.27 0)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  		)
+  		(symbol "ESDA25P35-1U1M_1_1"
+  			(pin passive line
+  				(at -3.81 0 0)
+  				(length 2.54)
+  				(name "K"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 3.81 0 180)
+  				(length 2.54)
+  				(name "A"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  		)
+  		(embedded_fonts no)
+  	)
+
+  (symbol "USBLC6-2SC6"
+  		(pin_names
+  			(hide yes)
+  		)
+  		(exclude_from_sim no)
+  		(in_bom yes)
+  		(on_board yes)
+  		(in_pos_files yes)
+  		(duplicate_pin_numbers_are_jumpers no)
+  		(property "Reference" "U"
+  			(at 0.635 5.715 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  				(justify left)
+  			)
+  		)
+  		(property "Value" "USBLC6-2SC6"
+  			(at 0.635 3.81 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  				(justify left)
+  			)
+  		)
+  		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+  			(at 1.016 -6.731 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  					(italic yes)
+  				)
+  				(justify left)
+  			)
+  		)
+  		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+  			(at 1.016 -8.636 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  				(justify left)
+  			)
+  		)
+  		(property "Description" "ST two-line USB 2.0 ESD protector, SOT23-6L SC6 package"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_keywords" "usb ethernet video"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_fp_filters" "SOT-23-6"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(symbol "USBLC6-2SC6_0_0"
+  			(circle
+  				(center -1.524 0)
+  				(radius 0.0001)
+  				(stroke
+  					(width 0.508)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center -0.508 2.032)
+  				(radius 0.0001)
+  				(stroke
+  					(width 0.508)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center -0.508 -4.572)
+  				(radius 0.0001)
+  				(stroke
+  					(width 0.508)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center 0.508 2.032)
+  				(radius 0.0001)
+  				(stroke
+  					(width 0.508)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center 0.508 -4.572)
+  				(radius 0.0001)
+  				(stroke
+  					(width 0.508)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center 1.524 -2.54)
+  				(radius 0.0001)
+  				(stroke
+  					(width 0.508)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  		)
+  		(symbol "USBLC6-2SC6_0_1"
+  			(polyline
+  				(pts
+  					(xy -2.54 0) (xy 2.54 0)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -2.54 -2.54) (xy 2.54 -2.54)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -2.032 -3.048) (xy -1.016 -3.048)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -1.016 1.524) (xy -2.032 1.524)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+  					(xy 0 -5.08)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 1.016 1.524) (xy 2.032 1.524)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 1.016 -3.048) (xy 2.032 -3.048)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  		)
+  		(symbol "USBLC6-2SC6_1_1"
+  			(rectangle
+  				(start -2.54 2.794)
+  				(end 2.54 -5.334)
+  				(stroke
+  					(width 0.254)
+  					(type default)
+  				)
+  				(fill
+  					(type background)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 0 0)
+  				(length 2.54)
+  				(name "I/O1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 0 -7.62 90)
+  				(length 2.54)
+  				(name "GND"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 -2.54 0)
+  				(length 2.54)
+  				(name "I/O2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "3"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 5.08 -2.54 180)
+  				(length 2.54)
+  				(name "I/O2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "4"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 0 5.08 270)
+  				(length 2.54)
+  				(name "VBUS"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "5"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 5.08 0 180)
+  				(length 2.54)
+  				(name "I/O1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "6"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  		)
+  		(embedded_fonts no)
+  	)
+
+  (symbol "TFM201610ALM-R47MTAA"
+  		(pin_numbers
+  			(hide yes)
+  		)
+  		(pin_names
+  			(offset 1.016)
+  			(hide yes)
+  		)
+  		(exclude_from_sim no)
+  		(in_bom yes)
+  		(on_board yes)
+  		(in_pos_files yes)
+  		(duplicate_pin_numbers_are_jumpers no)
+  		(property "Reference" "L"
+  			(at -1.27 0 90)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Value" "TFM201610ALM-R47MTAA"
+  			(at 1.905 0 90)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Footprint" "JustTheTip_PCB1:TDK_TFM201610ALM-R47MTAA_2.0x1.6mm"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Datasheet" "https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=TFM201610ALM-R47MTAA"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Description" "TDK 470 nH shielded power inductor, 2.0 x 1.6 mm"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_keywords" "inductor choke coil reactor magnetic"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_fp_filters" "TDK_TFM201610ALM-R47MTAA_2.0x1.6mm"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(symbol "TFM201610ALM-R47MTAA_0_1"
+  			(arc
+  				(start 0 2.54)
+  				(mid 0.6323 1.905)
+  				(end 0 1.27)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(arc
+  				(start 0 1.27)
+  				(mid 0.6323 0.635)
+  				(end 0 0)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(arc
+  				(start 0 0)
+  				(mid 0.6323 -0.635)
+  				(end 0 -1.27)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(arc
+  				(start 0 -1.27)
+  				(mid 0.6323 -1.905)
+  				(end 0 -2.54)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  		)
+  		(symbol "TFM201610ALM-R47MTAA_1_1"
+  			(pin passive line
+  				(at 0 3.81 270)
+  				(length 1.27)
+  				(name "1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 0 -3.81 90)
+  				(length 1.27)
+  				(name "2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  		)
+  		(embedded_fonts no)
+  	)
+
+  (symbol "BM16B-NSHDZS-TFT"
+  		(pin_names
+  			(offset 1.016)
+  			(hide yes)
+  		)
+  		(exclude_from_sim no)
+  		(in_bom yes)
+  		(on_board yes)
+  		(in_pos_files yes)
+  		(duplicate_pin_numbers_are_jumpers no)
+  		(property "Reference" "J"
+  			(at 1.27 10.16 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Value" "BM16B-NSHDZS-TFT"
+  			(at 1.27 -12.7 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Footprint" "JustTheTip_Connectors:JST_BM16B-NSHDZS-TFT_2x08_P1.00mm_Vertical"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eNSHD.pdf"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "Description" "JST NSHD 16-circuit 1.0 mm pitch vertical wire-to-board header"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_keywords" "connector"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(property "ki_fp_filters" "JST_BM16B-NSHDZS-TFT_2x08_P1.00mm_Vertical"
+  			(at 0 0 0)
+  			(show_name no)
+  			(do_not_autoplace no)
+  			(hide yes)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  			)
+  		)
+  		(symbol "BM16B-NSHDZS-TFT_1_1"
+  			(rectangle
+  				(start -1.27 8.89)
+  				(end 3.81 -11.43)
+  				(stroke
+  					(width 0.254)
+  					(type default)
+  				)
+  				(fill
+  					(type background)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 7.747)
+  				(end 0 7.493)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 5.207)
+  				(end 0 4.953)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 2.667)
+  				(end 0 2.413)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 0.127)
+  				(end 0 -0.127)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 -2.413)
+  				(end 0 -2.667)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 -4.953)
+  				(end 0 -5.207)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 -7.493)
+  				(end 0 -7.747)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start -1.27 -10.033)
+  				(end 0 -10.287)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 7.747)
+  				(end 2.54 7.493)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 5.207)
+  				(end 2.54 4.953)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 2.667)
+  				(end 2.54 2.413)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 0.127)
+  				(end 2.54 -0.127)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 -2.413)
+  				(end 2.54 -2.667)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 -4.953)
+  				(end 2.54 -5.207)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 -7.493)
+  				(end 2.54 -7.747)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(rectangle
+  				(start 3.81 -10.033)
+  				(end 2.54 -10.287)
+  				(stroke
+  					(width 0.1524)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 7.62 0)
+  				(length 3.81)
+  				(name "Pin_1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 7.62 180)
+  				(length 3.81)
+  				(name "Pin_2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 5.08 0)
+  				(length 3.81)
+  				(name "Pin_3"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "3"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 5.08 180)
+  				(length 3.81)
+  				(name "Pin_4"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "4"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 2.54 0)
+  				(length 3.81)
+  				(name "Pin_5"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "5"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 2.54 180)
+  				(length 3.81)
+  				(name "Pin_6"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "6"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 0 0)
+  				(length 3.81)
+  				(name "Pin_7"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "7"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 0 180)
+  				(length 3.81)
+  				(name "Pin_8"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "8"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 -2.54 0)
+  				(length 3.81)
+  				(name "Pin_9"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "9"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 -2.54 180)
+  				(length 3.81)
+  				(name "Pin_10"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "10"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 -5.08 0)
+  				(length 3.81)
+  				(name "Pin_11"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "11"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 -5.08 180)
+  				(length 3.81)
+  				(name "Pin_12"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "12"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 -7.62 0)
+  				(length 3.81)
+  				(name "Pin_13"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "13"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 -7.62 180)
+  				(length 3.81)
+  				(name "Pin_14"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "14"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -5.08 -10.16 0)
+  				(length 3.81)
+  				(name "Pin_15"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "15"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 -10.16 180)
+  				(length 3.81)
+  				(name "Pin_16"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "16"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  		)
+  		(embedded_fonts no)
+  	)
+)

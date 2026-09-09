@@ -1,0 +1,725 @@
+{
+  "units": "mm",
+  "revision": "2026-09-09 secured housing and one-piece retainer",
+  "status": "PROTOTYPE_NOT_PHYSICALLY_QUALIFIED",
+  "dimensions_mm": {
+    "width": 24.200000000000006,
+    "height": 44.5,
+    "depth": 33.80000000000001
+  },
+  "assembly_solids": 54,
+  "rigid_print_parts": [
+    "main_housing",
+    "back_housing",
+    "cap_retainer_one_piece",
+    "P3_optical_cassette",
+    "window_clamp"
+  ],
+  "files": [
+    {
+      "file": "parts/main_housing.step",
+      "sha256": "8517b8b2c9beb78cdba9724266a2a9ab159be298b8757d59eb0538b610ab4d8c",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.1,
+            12.100000000000001,
+            -22.5,
+            22.0,
+            -6.199999999999999,
+            12.000000000000004
+          ],
+          "volume_mm3": 6399.276338661801
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.1,
+            12.100000000000001,
+            -22.5,
+            22.0,
+            -6.200000000000002,
+            12.0
+          ],
+          "volume_mm3": 6399.27633866653
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "print/main_housing.stl",
+      "sha256": "671c5477f0176fc0983100695eeed4c643698b27c01422f3abe108075c29306a",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.1,
+            12.100000000000001,
+            -22.5,
+            22.0,
+            -6.199999999999999,
+            12.000000000000004
+          ],
+          "volume_mm3": 6399.276338661801
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.100000381469727,
+            12.100000381469727,
+            -22.5,
+            22.0,
+            -6.199999809265137,
+            12.0
+          ],
+          "volume_mm3": 6398.608424906125
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "parts/back_housing.step",
+      "sha256": "c473d913433ff4fe2532a28463ecca236b5ee3cd78d2238242792dd596cbec7c",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.1,
+            12.100000000000001,
+            -22.5,
+            22.0,
+            -11.2,
+            -5.499999999999998
+          ],
+          "volume_mm3": 2388.761482821184
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.1,
+            12.100000000000001,
+            -22.5,
+            22.0,
+            -11.2,
+            -5.5
+          ],
+          "volume_mm3": 2388.7614828210717
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "print/back_housing.stl",
+      "sha256": "8393cd7340be942034e0dbbe5c8b89a58dbf4615d6ca25f407e51fc2f713c73e",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.1,
+            12.100000000000001,
+            -22.5,
+            22.0,
+            -11.2,
+            -5.499999999999998
+          ],
+          "volume_mm3": 2388.761482821184
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.100000381469727,
+            12.100000381469727,
+            -22.5,
+            21.996238708496094,
+            -11.199999809265137,
+            -5.5
+          ],
+          "volume_mm3": 2388.4931715992348
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "compliant_surface/black_wrap_cap.step",
+      "sha256": "7a9334b5bd0e1d92f37b0b9c3368f6c30bb0be727bfd86adc80115d7bf64ca61",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -11.6,
+            11.600000000000001,
+            -16.0,
+            20.6,
+            11.999999900000002,
+            22.60000000000001
+          ],
+          "volume_mm3": 1432.2540531670747
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -11.6,
+            11.6,
+            -16.0,
+            20.6,
+            11.9999999,
+            22.60000000000001
+          ],
+          "volume_mm3": 1432.255057414591
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "compliant_surface"
+    },
+    {
+      "file": "compliant_surface/black_wrap_cap.stl",
+      "sha256": "8dcbeff6f6f8b50fe1a5d1e981f7aeb8c2e8e42f50690584d2bcf7e85d0aeff7",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -11.6,
+            11.600000000000001,
+            -16.0,
+            20.6,
+            11.999999900000002,
+            22.60000000000001
+          ],
+          "volume_mm3": 1432.2540531670747
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -11.600000381469727,
+            11.600000381469727,
+            -16.0,
+            20.596393585205078,
+            12.0,
+            22.600000381469727
+          ],
+          "volume_mm3": 1431.8252508578053
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "compliant_surface"
+    },
+    {
+      "file": "compliant_surface/white_inner_target.step",
+      "sha256": "f81a0de2a0afe69fdf0c6686ddb1ce484a63e568bebdfc2d6f53a7406b31cd1c",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -9.9000001,
+            9.9000001,
+            -14.300000100000004,
+            18.9000001,
+            11.999999900000002,
+            21.700000000000003
+          ],
+          "volume_mm3": 397.254035034328
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -9.9000001,
+            9.9000001,
+            -14.3000001,
+            18.9000001,
+            11.9999999,
+            21.700000000000003
+          ],
+          "volume_mm3": 397.25422088748985
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "compliant_surface"
+    },
+    {
+      "file": "compliant_surface/white_inner_target.stl",
+      "sha256": "90559793c901be72faa55dde0dffaa45c26c354bb362e0d6054d188c8c9b04aa",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -9.9000001,
+            9.9000001,
+            -14.300000100000004,
+            18.9000001,
+            11.999999900000002,
+            21.700000000000003
+          ],
+          "volume_mm3": 397.254035034328
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -9.899999618530273,
+            9.899999618530273,
+            -14.300000190734863,
+            18.896923065185547,
+            12.0,
+            21.700000762939453
+          ],
+          "volume_mm3": 397.0238529972849
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "compliant_surface"
+    },
+    {
+      "file": "parts/P3_optical_cassette.step",
+      "sha256": "3c0239dd6ea34138444f763778fad1da1e972c6527a9dff632c5457cfa750a36",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.2,
+            8.2,
+            -5.208000000000004,
+            7.991999999999997,
+            1.200000000000002,
+            4.0000000000000036
+          ],
+          "volume_mm3": 280.63095137729397
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.2,
+            8.2,
+            -5.208,
+            7.992000000000001,
+            1.1999999999999993,
+            4.0
+          ],
+          "volume_mm3": 280.63095137729334
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "print/P3_optical_cassette.stl",
+      "sha256": "fa0403a0f5e5e440746c7d4e8de3eba74cef2894b9de8f8400e172501a1bdcc5",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.2,
+            8.2,
+            -5.208000000000004,
+            7.991999999999997,
+            1.200000000000002,
+            4.0000000000000036
+          ],
+          "volume_mm3": 280.63095137729397
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.199999809265137,
+            8.199999809265137,
+            -5.208000183105469,
+            7.992000102996826,
+            1.2000000476837158,
+            4.0
+          ],
+          "volume_mm3": 280.6151053277219
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "parts/window_clamp.step",
+      "sha256": "128d71733ad51760a6a8bd55889c0c745e7c5ed83efdfdad8908ff6aa496c3bf",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.2,
+            8.2,
+            -5.207999999999998,
+            7.991999999999997,
+            4.000000000000002,
+            5.200000000000002
+          ],
+          "volume_mm3": 200.76148776284313
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.2,
+            8.2,
+            -5.208,
+            7.992,
+            4.0,
+            5.2
+          ],
+          "volume_mm3": 200.76148776284288
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "print/window_clamp.stl",
+      "sha256": "1f0927a6527f23b0153406f1fdf3fac79ae623357968d66f5e79bfb4809b3936",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.2,
+            8.2,
+            -5.207999999999998,
+            7.991999999999997,
+            4.000000000000002,
+            5.200000000000002
+          ],
+          "volume_mm3": 200.76148776284313
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -8.199999809265137,
+            8.199999809265137,
+            -5.208000183105469,
+            7.992000102996826,
+            4.0,
+            5.199999809265137
+          ],
+          "volume_mm3": 200.766518839055
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "reference/PCB2_reference.step",
+      "sha256": "4b1d27c18ca812ceb87944c54dbc9db2b600e8b453dd59f5b5b00a809add4ba7",
+      "validation": {
+        "source": {
+          "solid_count": 27,
+          "bbox_mm": [
+            -5.0,
+            5.0,
+            -9.708,
+            5.292,
+            -4.43500000000001,
+            2.9550000000000027
+          ],
+          "volume_mm3": 394.7495900482906
+        },
+        "reimport": {
+          "solid_count": 27,
+          "bbox_mm": [
+            -5.0,
+            5.0,
+            -9.708,
+            5.292,
+            -4.435000000000013,
+            2.955
+          ],
+          "volume_mm3": 394.7495900482908
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "reference"
+    },
+    {
+      "file": "reference/PCB2_reference.stl",
+      "sha256": "d91c9d3d0002b7fa45c506e603cab36cf6d2afc2f514fc42916b24f566a56723",
+      "validation": {
+        "source": {
+          "solid_count": 27,
+          "bbox_mm": [
+            -5.0,
+            5.0,
+            -9.708,
+            5.292,
+            -4.43500000000001,
+            2.9550000000000027
+          ],
+          "volume_mm3": 394.7495900482906
+        },
+        "reimport": {
+          "solid_count": 27,
+          "bbox_mm": [
+            -5.0,
+            5.0,
+            -9.708000183105469,
+            5.291999816894531,
+            -4.434999942779541,
+            2.9549999237060547
+          ],
+          "volume_mm3": 394.75242681641976
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "reference"
+    },
+    {
+      "file": "reference/boot_reference.step",
+      "sha256": "c9d8cb6443112c9710a0a4f3f42aab38c9a13fbee70cc43599e46793fc74ce6d",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.0996508987010007,
+            2.0996508987010007,
+            -2.1075985335070015,
+            4.891598533507001,
+            1.6000000000000014,
+            3.400000000000002
+          ],
+          "volume_mm3": 24.096234541881994
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.099650898701,
+            2.0996508987010007,
+            -2.1075985335070007,
+            4.8915985335070005,
+            1.5999999999999996,
+            3.4000000000000004
+          ],
+          "volume_mm3": 24.09623454188213
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "reference"
+    },
+    {
+      "file": "reference/boot_reference.stl",
+      "sha256": "d7480423901c6118f016b9bb973b821fc2d391dfb59a29857b8cc72d119afa6a",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.0996508987010007,
+            2.0996508987010007,
+            -2.1075985335070015,
+            4.891598533507001,
+            1.6000000000000014,
+            3.400000000000002
+          ],
+          "volume_mm3": 24.096234541881994
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.0996508598327637,
+            2.0996508598327637,
+            -2.1075985431671143,
+            4.891598701477051,
+            1.600000023841858,
+            3.4000000953674316
+          ],
+          "volume_mm3": 24.09663061368262
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "reference"
+    },
+    {
+      "file": "reference/window_reference.step",
+      "sha256": "8bc255804af79c71e8956a1f95130811b4e21f7a7466e90ec0bb9b73fd28e9ed",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.7,
+            2.7,
+            -2.7079999999999984,
+            5.491999999999997,
+            3.400000000000002,
+            4.000000000000002
+          ],
+          "volume_mm3": 26.56799999999997
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.7,
+            2.7,
+            -2.708,
+            5.492,
+            3.4,
+            4.0
+          ],
+          "volume_mm3": 26.568000000000005
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "reference"
+    },
+    {
+      "file": "reference/window_reference.stl",
+      "sha256": "dbfb9d74c3b924b4bf962a46ac5c52629d68620d517c5de96713b7a5adcf63ed",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.7,
+            2.7,
+            -2.7079999999999984,
+            5.491999999999997,
+            3.400000000000002,
+            4.000000000000002
+          ],
+          "volume_mm3": 26.56799999999997
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -2.700000047683716,
+            2.700000047683716,
+            -2.7079999446868896,
+            5.492000102996826,
+            3.4000000953674316,
+            4.0
+          ],
+          "volume_mm3": 26.567996400833035
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "reference"
+    },
+    {
+      "file": "parts/cap_retainer_one_piece.step",
+      "sha256": "5c6384cd7c7508474c773ca2afb548da429dce4a431a2f4c604e7044f84a9b01",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.100000000000003,
+            12.100000000000003,
+            -22.5,
+            22.0,
+            7.000000000000002,
+            15.200000000000003
+          ],
+          "volume_mm3": 913.2314611724654
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.100000000000003,
+            12.100000000000003,
+            -22.5,
+            22.0,
+            7.0,
+            15.2
+          ],
+          "volume_mm3": 913.2314611721873
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "print/cap_retainer_one_piece.stl",
+      "sha256": "d7208730961439952baac0918ace0f643ad9508ecb28d260c2a85cda60ba8a14",
+      "validation": {
+        "source": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.100000000000003,
+            12.100000000000003,
+            -22.5,
+            22.0,
+            7.000000000000002,
+            15.200000000000003
+          ],
+          "volume_mm3": 913.2314611724654
+        },
+        "reimport": {
+          "solid_count": 1,
+          "bbox_mm": [
+            -12.100000381469727,
+            12.100000381469727,
+            -22.5,
+            22.0,
+            7.0,
+            15.199999809265137
+          ],
+          "volume_mm3": 913.2318124494719
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "parts"
+    },
+    {
+      "file": "sensor_assembly.step",
+      "sha256": "bd450d118ab90ee5f8e6f4b27e3129e237f9dfb2738b7d95a35abc8acbcc3af0",
+      "validation": {
+        "source": {
+          "solid_count": 54,
+          "bbox_mm": [
+            -12.100000000000003,
+            12.100000000000003,
+            -22.5,
+            22.0,
+            -11.2,
+            22.60000000000001
+          ],
+          "volume_mm3": 12893.566696329846
+        },
+        "reimport": {
+          "solid_count": 54,
+          "bbox_mm": [
+            -12.100000000000003,
+            12.100000000000003,
+            -22.5,
+            22.0,
+            -11.200000000000001,
+            22.60000000000001
+          ],
+          "volume_mm3": 12893.567886434232
+        },
+        "passed": true,
+        "bbox_method": "BRepBndLib.AddOptimal(no triangulation,no tolerance inflation)"
+      },
+      "role": "assembly"
+    }
+  ],
+  "standalone_rear_fasteners": "Two M2 x 8 socket-head screws and two M2 nuts",
+  "rear_load_path_contact_probes_mm3": {
+    "1": {
+      "head_to_cover_mm3": 0.07539822368612709,
+      "nut_to_body_mm3": 0.10055079349691536
+    },
+    "2": {
+      "head_to_cover_mm3": 0.07539822368612709,
+      "nut_to_body_mm3": 0.10055079349708444
+    }
+  },
+  "source_design_sha256": "c4b11907c7f38cbcc2ea6a8c27b59e89aa961bfc9a687797ab2a755bfb5a12c5"
+}
