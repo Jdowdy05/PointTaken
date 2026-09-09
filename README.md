@@ -2,7 +2,17 @@
 
 A compact optical tactile fingertip built around the **ams OSRAM TMF8829**. A soft silicone surface deforms under contact; the sensor observes the changing distance to its reflective inner layer. Force and contact information must be obtained through calibration.
 
-![Standalone tactile sensor](CAD/Sensor/images/sensor_assembled_hero.png)
+![Single-sensor validation PCB connected to the fingertip PCB, with the sensor housing and optical components shown in an exploded assembly](docs/images/connected-exploded.jpg)
+
+*Connected electronics and exploded sensor assembly. Cable routing and exploded spacing are schematic.*
+
+![Expected optical sensing: representative viewing zones on the reflective inner skin and an illustrative deformation map](docs/images/expected-sensing.jpg)
+
+*Expected sensing principle. The zone projection and deformation example are illustrative, not calibrated measurements.*
+
+<p align="center">
+  <img src="CAD/Sensor/images/sensor_assembled_hero.png" alt="Assembled Point Taken tactile fingertip" width="360">
+</p>
 
 ## Repository layout
 
